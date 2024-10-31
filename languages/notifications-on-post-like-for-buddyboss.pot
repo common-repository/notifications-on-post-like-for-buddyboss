@@ -1,0 +1,134 @@
+# Copyright (C) 2024 Notifications On Post Like For BuddyBoss
+# This file is distributed under the same license as the Notifications On Post Like For BuddyBoss package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Notifications On Post Like For BuddyBoss\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-09 16:10+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/acrosswp/notifications-on-post-like-for-buddyboss/issues\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/class-notifications-on-post-like-for-buddyboss-admin.php:80
+msgid "Settings"
+msgstr ""
+
+#: admin/class-notifications-on-post-like-for-buddyboss-admin.php:81
+msgid "About plugin"
+msgstr ""
+
+#: includes/dependency/buddyboss.php:12
+msgid "<strong>%s</strong></a> requires the BuddyBoss Platform plugin to work. Please <a href=\"https://buddyboss.com/platform/\" target=\"_blank\">install BuddyBoss Platform</a> first."
+msgstr ""
+
+#: includes/dependency/buddyboss.php:26
+msgid "<strong>%s</strong></a> requires BuddyBoss Platform plugin version %s or higher to work. Please update BuddyBoss Platform."
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:130
+msgid "Notification on Your Post Or Comment"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:131
+msgid "Notification on Author Post Or Comment"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:145
+msgid "Requires Reactions to enable for Activity Post"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:153
+msgid "Required by activity Likes"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:168
+msgid "A member reacted your post"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:169
+msgid "Member reacted some author post"
+msgstr ""
+
+#. translators: do not remove {} brackets or translate its contents.
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:187
+msgid "[{{{site.name}}}] {{poster.name}} reacted your Activity"
+msgstr ""
+
+#. translators: do not remove {} brackets or translate its contents.
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:189
+msgid "<a href=\"{{{poster_like.url}}}\">{{poster.name}}</a> have reacted your <a href=\"{{{activity.url}}}\">Activity</a>"
+msgstr ""
+
+#. translators: do not remove {} brackets or translate its contents.
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:191
+msgid ""
+"{{poster.name}} have reacted your Activity.\n"
+"\Activity link: {{{activity.url}}}"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:192
+msgid "A posts author get reacted by members"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:193
+msgid "You will no longer receive emails when someone reacted your posts."
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:221, public/class-notifications-on-post-like-for-buddyboss-notification-type.php:309
+msgid "Custom Notification Filter"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:233
+msgid "Requires Reactions to enable for Activity Comment"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:241
+msgid "Required by activity comments Likes"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:256
+msgid "A member reacted your comment"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:257
+msgid "Member reacted some author comment"
+msgstr ""
+
+#. translators: do not remove {} brackets or translate its contents.
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:275
+msgid "[{{{site.name}}}] {{poster.name}} reacted your Comments"
+msgstr ""
+
+#. translators: do not remove {} brackets or translate its contents.
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:277
+msgid "<a href=\"{{{poster_like.url}}}\">{{poster.name}}</a> have reacted your <a href=\"{{{comment.url}}}\">Comment</a>"
+msgstr ""
+
+#. translators: do not remove {} brackets or translate its contents.
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:279
+msgid ""
+"{{poster.name}} have reacted your Comment.\n"
+"\Comment link: {{{activity.url}}}"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:280
+msgid "A comments author get reacted by members"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-notification-type.php:281
+msgid "You will no longer receive emails when someone reacted your comment."
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-public.php:142
+msgid "%s liked on your comment"
+msgstr ""
+
+#: public/class-notifications-on-post-like-for-buddyboss-public.php:140
+msgid "%s liked on your post"
+msgstr ""
